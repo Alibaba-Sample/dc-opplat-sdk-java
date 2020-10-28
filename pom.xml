@@ -17,7 +17,10 @@
 		版权所有 （C）阿里云计算有限公司
 		http://www.aliyun.com
 	</description>
-
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
 	<licenses>
 		<license>
 			<name></name>
