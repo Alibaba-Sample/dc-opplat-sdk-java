@@ -2,10 +2,9 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<!-- <groupId>com.aliyun<</groupId> <artifactId>dc-opplat-sdk-java</artifactId> -->
 
 	<groupId>com.aliyun</groupId>
-	<artifactId>alibabacloud-dcopplat-java-client</artifactId>
+	<artifactId>dc-opplat-sdk-java</artifactId>
 	<packaging>jar</packaging>
 	<version>1.0.0</version>
 	<name>aliyun-java-sdk-dysmsapi</name>
@@ -17,6 +16,7 @@
 		版权所有 （C）阿里云计算有限公司
 		http://www.aliyun.com
 	</description>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -89,6 +89,7 @@
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
+					<encoding>UTF-8</encoding>
 				</configuration>
 			</plugin>
 		</plugins>
