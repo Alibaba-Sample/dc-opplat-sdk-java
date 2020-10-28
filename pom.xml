@@ -1,0 +1,94 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<!-- <groupId>com.aliyun<</groupId> <artifactId>dc-opplat-sdk-java</artifactId> -->
+
+	<groupId>com.aliyun</groupId>
+	<artifactId>alibabacloud-dcopplat-java-client</artifactId>
+	<packaging>jar</packaging>
+	<version>1.0.0</version>
+	<name>aliyun-java-sdk-dysmsapi</name>
+	<url>http://www.aliyun.com</url>
+	<description>
+		Aliyun Open API SDK for Java
+		Copyright (C) Alibaba Cloud Computing
+		All rights reserved.
+		版权所有 （C）阿里云计算有限公司
+		http://www.aliyun.com
+	</description>
+
+	<licenses>
+		<license>
+			<name></name>
+			<url></url>
+			<distribution></distribution>
+		</license>
+	</licenses>
+	<scm>
+		<connection>scm:git:git://github.com/aliyun/dc-opplat-sdk-java.git</connection>
+		<developerConnection>scm:git:git://github.com/aliyun/dc-opplat-sdk-java.git</developerConnection>
+		<url>https://github.com/aliyun/dc-opplat-sdk-java</url>
+	</scm>
+	<developers>
+		<developer>
+			<id>aliyunproducts</id>
+			<name>Aliyun SDK</name>
+			<email>aliyunsdk@aliyun.com</email>
+		</developer>
+	</developers>
+
+	<dependencies>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.50</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.8.6</version>
+		</dependency>
+		<dependency>
+			<groupId>org.bouncycastle</groupId>
+			<artifactId>bcprov-jdk15on</artifactId>
+			<version>1.62</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.50</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.5.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
